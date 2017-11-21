@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+#container{
+    width: 960px;
+    position: relative;
+    transform: translate( -50%, 0);
+    left: 50%;
+}
+header{
+    #logo{
+        width: 30vw;
+        float: right;
+    }
+    #headcontainer{
+        width: 50vw;
+        float: left;
+    }
+    nav{
+        width: 940px;
+        float: left;
+        a{
+            text-decoration: none;
+            color: skyblue;
+        }
+        a:hover{
+            color: white;
+            background-color: skyblue;
+        }
+    }
+}   
