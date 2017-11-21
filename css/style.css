@@ -1,2 +1,36 @@
-*{margin:0;padding:0}body{width:100vw;overflow-x:hidden}#container{width:960px;position:relative;transform:translate(-50%, 0);left:50%}header #logo{width:30vw;float:right}header #headcontainer{width:50vw;float:left}header nav{width:940px;float:left}header nav a{text-decoration:none;color:skyblue}header nav a:hover{color:white;background-color:skyblue}
-/*# sourceMappingURL=style.css.map */
+/*
+Error: Invalid CSS after "...c6ebbfcbb06921b": expected "{", was ""
+        on line 59 of C:\Users\pk2\Desktop\blabla\lekcjeCE\css\style.scss
+
+54:             clear: both;
+55:         }
+56:     }
+57: }
+58: >>>>>>> c8259eaa381bc9c52cb1d7278c6ebbfcbb06921b
+
+Backtrace:
+C:\Users\pk2\Desktop\blabla\lekcjeCE\css\style.scss:59
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files/Koala/bin/sass:22:in `load'
+C:/Program Files/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...c6ebbfcbb06921b\": expected \"{\", was \"\"\A         on line 59 of C:\Users\pk2\Desktop\blabla\lekcjeCE\css\style.scss\A \A 54:             clear: both;\A 55:         }\A 56:     }\A 57: }\A 58: >>>>>>> c8259eaa381bc9c52cb1d7278c6ebbfcbb06921b"; }

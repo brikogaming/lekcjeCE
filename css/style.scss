@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -34,3 +35,24 @@ header{
         }
     }
 }   
+=======
+article:first-of-type{
+    width: 260px;
+    h3{
+        color: #07b6fe;
+    }
+    .contactLine{
+        img{
+            height: 10px;
+            float: left;
+        }
+        p{
+            float: left
+        }
+        p:after{
+            content: '';
+            clear: both;
+        }
+    }
+}
+>>>>>>> c8259eaa381bc9c52cb1d7278c6ebbfcbb06921b
