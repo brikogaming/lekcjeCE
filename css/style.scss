@@ -1,0 +1,19 @@
+article:first-of-type{
+    width: 260px;
+    h3{
+        color: #07b6fe;
+    }
+    .contactLine{
+        img{
+            height: 10px;
+            float: left;
+        }
+        p{
+            float: left
+        }
+        p:after{
+            content: '';
+            clear: both;
+        }
+    }
+}
