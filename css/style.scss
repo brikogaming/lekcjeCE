@@ -55,7 +55,49 @@ article:first-of-type{
         }
     }
 }
-#content{
-    width: 50px;
+.content {
+    background-color: aqua;
+    position: relative;
+    width: 250%;
+    height: 700px;
+    margin-left: 300px;
+}
+.one {
+    img{
+        float: left;
+        
+        
+       }
+    h1 {
+        margin-bottom: 20px;
+    }
+    p {
+        margin-bottom: 14px;
+    }
 }
 
+.two {
+    img {
+        float: right;
+        
+    }
+    p {
+        margin-bottom: 50px;
+    }
+    em {
+        margin-bottom: 100px;
+    }
+}
+.three {
+    img{
+        float: left;
+}
+}
+.four {
+    img {
+        float: right;
+    }
+}
+
+
+   
